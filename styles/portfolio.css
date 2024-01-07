@@ -181,15 +181,31 @@ main section{
 }
 footer{
     display: flex;
+    gap: 100px;
     /* justify-content: space-around; */
     background-color: #FFF8F3;
     padding: 130px 200px;
 }
 .footer-column{
-    
+    width: 50%;
 }
 .footer-des{
     color: #474747;
     font-size: 16px;
     font-weight: 400;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    background:#FFF;
+    border: 0;
+    width: 100%;
 }
