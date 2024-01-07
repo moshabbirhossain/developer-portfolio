@@ -111,10 +111,14 @@ main{
     font-size: 20px;
     font-weight: 400;
 }
-.about-title{
-    /* text-align: center; */
-
+.what-I-do{
+    margin-top: 0;
+    margin-bottom: 150px;
 }
-.about-des{
-    
+#what-I-do-des{
+    padding: 30px 150px;
+}
+.skill-container{
+    display: flex;
+    /* justify-content: space-around; */
 }
