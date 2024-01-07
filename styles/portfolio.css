@@ -20,6 +20,7 @@ nav{
     font-weight: 700;
     color: white;
     padding: 15px 35px;
+    margin-top: 0px;
 }
 .text-primary{
     color: #FD6E0A;
@@ -72,9 +73,6 @@ li > a{
 .banner-des{
     margin-top: 0;
     margin-bottom: 50px;
-}
-.btn-primary{
-    margin-top: 0px;
 }
 /* main sections styles */
 main{
@@ -153,10 +151,31 @@ main section{
 /* resume related styles */
 .resume-container{
     display: flex;
+    gap: 50px;
     justify-content:space-around;
 }
 .resume-column-title{
     color:#474747;
     font-size: 30px;
     font-weight: 700;
+}
+.resume-item-title{
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-item-institute{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.resume-item-institute, .resume-item-des{
+    color:#757575;
+}
+.resume-container hr{
+    margin: 30px 0;
+}
+#download-cv{
+    text-align: center;
+    margin: 30px auto 100px;
 }
